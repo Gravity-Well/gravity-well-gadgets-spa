@@ -7,33 +7,33 @@ import Frame from 'react-frame-component';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-// root.render(
-//   <React.StrictMode>
- 
-//     <Frame height={450} width={600}>
-//     <App />
-//     </Frame>
-//     <Frame height={450} width={600}>
-//     <App />
-//     </Frame>
-//     <br/>
-//     <Frame height={450} width={600}>
-//     <App />
-//     </Frame>
-//     <Frame height={450} width={600}>
-//     <App />
-//     </Frame>
-
-//   </React.StrictMode>
-// );
-
 root.render(
   <React.StrictMode>
-   
+ 
+    <Frame height={450} width={600}>
     <App />
+    </Frame>
+    <Frame height={450} width={600}>
+    <App />
+    </Frame>
+    <br/>
+    <Frame height={450} width={600}>
+    <App />
+    </Frame>
+    <Frame height={450} width={600}>
+    <App />
+    </Frame>
 
   </React.StrictMode>
 );
+
+// root.render(
+//   <React.StrictMode>
+   
+//     <App />
+
+//   </React.StrictMode>
+// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
